@@ -63,6 +63,7 @@ class App extends Component {
         </div>
         <div className="map">
           <GoogleMapReact
+            bootstrapURLKeys={ key: 'AIzaSyDku5U1fNbYRLzh4uvkXrFMVcfY2Z2w5_k'}
             center={center}
             zoom={12}>
             {this.state.flats.map((flat) => {
