@@ -2,8 +2,9 @@
   "name": "airbnb-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/niam0r/airbnb-clone",
+  "homepage": "https://niam0r.github.io/airbnb-clone",
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "google-map-react": "^0.29.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -13,6 +14,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "yarn build&&gh-pages -d build"
   }
 }
