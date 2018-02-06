@@ -1,7 +1,9 @@
-import React form 'react';
+import React from "react";
 
-class  Hello extends React component {
+class Hello extends React.Component {
   render() {
-
+    return <div>Hello {this.props.name}</div>;
   }
 }
+
+export default Hello;
