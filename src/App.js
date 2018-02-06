@@ -74,8 +74,5 @@ class App extends Component {
     );
   }
 }
-export default GoogleApiWrapper({
-  apiKey: AIzaSyDku5U1fNbYRLzh4uvkXrFMVcfY2Z2w5_k,
-})(GoogleMapReact);
 
 export default App;
