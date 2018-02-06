@@ -2,6 +2,7 @@
   "name": "airbnb-clone",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/niam0r/airbnb-clone",
   "dependencies": {
     "google-map-react": "^0.29.0",
     "react": "^16.2.0",
