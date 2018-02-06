@@ -11,8 +11,10 @@
 .flat-picture {
   height: 180px;
   background-size: cover;
+  background-position: center;
 }
 
 .flat-title {
   margin-top: 10px;
+  font-weight: bold;
 }
