@@ -6,10 +6,12 @@
   width: 36px;
   text-align: center;
   font-size: 15px;
+  /*z-index: 1;*/
 }
 
 .marker.selected {
   background-color: lightyellow;
   border-color: black;
   font-weight: bold;
+  /*z-index: 10;*/
 }

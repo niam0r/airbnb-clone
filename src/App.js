@@ -29,6 +29,7 @@ class App extends Component {
   }
 
   selectFlat = (flat) => {
+    console.log(flat);
     this.setState({
       selectedFlat: flat
     });
@@ -42,12 +43,11 @@ class App extends Component {
   }
 
   render() {
-    let center = {
-      lat: 48.8566, lng: 2.3522
-    };
+    let center = { lat: 48.8566, lng: 2.3522 };
     if (this.state.selectedFlat) {
       center = { lat: this.state.selectedFlat.lat, lng: this.state.selectedFlat.lng }
     }
+
     return (
       <div className="app">
         <div className="main">
@@ -64,7 +64,7 @@ class App extends Component {
         <div className="map">
           <GoogleMapReact
             center={center}
-            zoom={14}>
+            zoom={12}>
             {this.state.flats.map((flat) => {
               return <Marker {...flat} selected={flat === this.state.selectedFlat} />
             })}

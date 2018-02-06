@@ -15,6 +15,7 @@ class Flat extends React.Component {
   }
 
   handleClick = () => {
+    // call the parent function selecFlat
     this.props.selectFlat(this.props.flat);
   }
 }
